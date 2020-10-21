@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content=“A dice game">
+    <meta name="keywords" content=“Ghoroub, Bostaji,
+    IT, games" >
+    <meta name="author" content=“Ghoroub Bostaji">
+
+    <title>Dice game &#9825; </title>
+    <link rel="stylesheet" href="game.css"> <!-- LINK the style page -->
+    <link rel="icon" href="favicon.ico"  />
+    <audio src="Kids.mp3"></audio>
+  </head>
+
+  <body onload="typeNames()">
+    <center>
+    <div class="Content1">
+      <h1>Welcom to Dice game</h1>
+      <h2>Let's start</h2>
+      <div class="dice">
+        <p class="Player1">Player 1</p>
+        <img class="img1" src="1.PNG">
+      </div>
+
+      <div class="dice">
+        <p class="Player2">Player 2</p>
+        <img class="img2" src="1.PNG">
+      </div>
+    </div>
+
+    <div class="Content1 bottom">
+      <button type="button" class="butn" onClick="rollingDice()">
+        Roll the Dice
+      </button>
+    </div>
+
+    <div class="Content1 bottom">
+      <button type="button" class="butn" onClick="typeNames()">
+        Change Names
+      </button>
+    </div>
+
+    <script src="game.js" charset="utf-8">
+    </script>
+    </center>
+  </body>
+</html>
